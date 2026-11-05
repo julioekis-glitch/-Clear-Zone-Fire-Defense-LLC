@@ -21,8 +21,8 @@ function Header() {
           <div className="container header-container">
             <div className="header-left">
               <div className="logo-wrapper">
-                <img src={logoImg} alt="Clear Zone Fire Defense" className="logo-img" />
-                <span className="studio-name">CLEAR ZONE FIRE DEFENSE</span>
+                <img src={logoImg} alt="Fire Defense" className="logo-img" />
+                <span className="studio-name">FIRE DEFENSE</span>
               </div>
             </div>
 
@@ -52,12 +52,12 @@ function HomePage() {
       <section id="about" className="section about">
         <div className="container about-row">
           <div className="about-text-container">
-            <h2 className="highlight-title">CLEAR ZONE FIRE DEFENSE – Welcome Aboard</h2>
-            <p className="about-text">CLEAR ZONE FIRE DEFENSE is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
+            <h2 className="highlight-title">FIRE DEFENSE – Welcome Aboard</h2>
+            <p className="about-text">FIRE DEFENSE is a forward-thinking mobile app studio committed to crafting innovative, dependable, and easy-to-use applications. Our mission is to blend creativity with functionality, delivering solutions that span across casual gaming, productivity, lifestyle, and education. Each app we develop is carefully designed with user experience in mind — offering intuitive navigation, thoughtful details, and practical value — to make everyday life simpler, smarter, and more enjoyable for users around the globe.
             </p>
           </div>
           <div className="about-img-container">
-            <img src={imgMkj} alt="About Clear Zone Fire Defense" className="about-img" />
+            <img src={imgMkj} alt="About Fire Defense" className="about-img" />
           </div>
         </div>
       </section>

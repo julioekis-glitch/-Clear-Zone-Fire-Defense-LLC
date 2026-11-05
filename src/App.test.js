@@ -13,8 +13,8 @@ jest.mock('react-router-dom', () => {
   };
 }, { virtual: true });
 
-test('renders Clear Zone Fire Defense heading', () => {
+test('renders Fire Defense heading', () => {
   render(<App />);
-  const heading = screen.getByRole('heading', { name: /clear zone fire defense – welcome aboard/i });
+  const heading = screen.getByRole('heading', { name: /fire defense – welcome aboard/i });
   expect(heading).toBeInTheDocument();
 });
