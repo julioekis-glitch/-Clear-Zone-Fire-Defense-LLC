@@ -1,0 +1,13 @@
+[build]
+  command = "npm run build"
+  publish = "build"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# React Router: mọi route đều trả về index.html.
+# File tĩnh có thật (vd /policy.html) vẫn được phục vụ bình thường.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
